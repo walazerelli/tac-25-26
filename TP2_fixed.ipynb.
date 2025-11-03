@@ -1,0 +1,11 @@
+import nbformat
+
+with open("TP2_fixed.ipynb") as f:
+    nb = nbformat.read(f, as_version=4)  # ou as_version=5
+print("Notebook valide !")
+
+
+
+
+
+
